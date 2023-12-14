@@ -34,10 +34,6 @@ Lo mismo sucederá con el botón <i>"WithDraw"</i>, solo que se muestra el movim
 <p align="justify">
 Se usan las técnicas de Boxing/Unboxing en el método <i>ChangeBalance</i> 
 </p>
-<div><b>Listado 3. Boxing/unboxing en C#.</b></div><br>
-<div>
-<IMG src="picture_library/gtkboxing/changeBalance.png" alt="Boxing/unboxing en C#">
-</div>
 <p align="justify">
 En .NET toda estructura o tipo simple es un tipo por valor y como la propiedad Text del Widget Entry admite únicamente el tipo String que es un tipo por referencia, por lo que para mostrar la cantidad en el campo de texto Balance, utilizamos el Boxing como en la siguiente línea:
 </p>
