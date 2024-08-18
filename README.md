@@ -1,4 +1,4 @@
-# Entendiendo Boxing en C#
+# Usando el concepto de Boxing en C#
 
 <p align="justify">
 Todos los tipos de datos en C# heredan de la clase base Object, tanto los tipos de datos por valor (ejem: primitivos) como los tipos por referencia (ejem:clases), esta herencia permite convertir un tipo de dato por valor a uno por referencia y a la inversa, a estas operaciones se les conoce como <b>Boxing</b> y <b>Unboxing.</b>
@@ -10,26 +10,23 @@ Estas operaciones son importantes dentro del sistema de tipos de C# ya que unifi
 El siguiente programa GTK# muestra estos conceptos, el programa emula a un sencillo administrador de cuenta bancaria solicita una cantidad para depositoo retiro  y según el tipo de movimiento pone un signo de '+’ si es deposito y un signo de '-'si es retiro.
 </p>
 <p align="justify">
-El programa consta de una estructura <i>MovementItem</i>  y de la clase <i>GtkBoxingSample.</i>
+Este programa consta de una estructura <i>MovementItem</i>  y de la clase <i>GtkBoxingSample.</i>
 </p>
-<div>
-<IMG src="picture_library/gtkboxing/fig0.png">
-</div><br>
 <p>
 Al ejecutar el  programa se verá la siguiente ventana con un saldo inicial de 1000
 </p>
 <div>
-<IMG src="picture_library/gtkboxing/fig1.png">
+<IMG src="images/fig1.png">
 </div><br>
 <p>Al ingresar un cantidad y dar click en el botón <i>"Deposit"</i>, se mostrará el movimiento con un signo "+" sumando el monto al saldo.</p>
 <div>
-<IMG src="picture_library/gtkboxing/fig2.png">
+<IMG src="images/fig2.png">
 </div><br>
 <p>
 Lo mismo sucederá con el botón <i>"WithDraw"</i>, solo que se muestra el movimiento con un signo "-" restando el monto al saldo.
 </p>
 <div>
-<IMG src="picture_library/gtkboxing/fig3.png">
+<IMG src="images/fig3.png">
 </div><br>
 <p align="justify">
 Se usan las técnicas de Boxing/Unboxing en el método <i>ChangeBalance</i> 
